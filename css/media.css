@@ -1,0 +1,31 @@
+#main-nav .container {
+  text-align: center;
+  display: block;
+}
+#main-nav .container ul {
+  margin-top: 1rem;
+  justify-content: center;
+}
+.home-articles .container .article-box {
+  display: block;
+}
+.home-articles .container .article-box article {
+  margin: 1rem 0;
+}
+.article-box article:first-child,
+.article-box article:last-child {
+  display: block;
+}
+footer .container {
+  display: block;
+}
+footer .footer-content {
+  margin: 1rem 0;
+}
+.sidebar {
+  display: none;
+}
+.wrapper {
+  display: block;
+  background: red;
+}

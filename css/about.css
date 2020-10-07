@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+}
+.wrapper .sidebar {
+  text-align: right;
+}
+.about-content {
+  grid-row: span 6;
+}
+.about-content {
+  background: #fff;
+  padding: 1rem;
+}
+.side-club {
+  margin-top: 1rem;
+  text-align: left;
+  color: #fff;
+  padding: 1rem;
+  background: var(--primary-color);
+}

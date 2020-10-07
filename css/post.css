@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+}
+.wrapper .sidebar {
+  text-align: right;
+}
+.wrapper article {
+  grid-row: span 6;
+  padding: 1rem;
+  background: #fff;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.wrapper .meta-data {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: var(--light-color);
+}
+.wrapper article h1 {
+  font-size: 3rem;
+}
+
+.community {
+  margin: 1rem 0;
+  text-align: left;
+  color: white;
+  padding: 1rem;
+  background: var(--primary-color);
+}
